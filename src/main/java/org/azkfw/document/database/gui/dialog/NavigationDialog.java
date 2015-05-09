@@ -65,9 +65,7 @@ public class NavigationDialog extends JDialog {
 
 		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
 		Rectangle rt = env.getMaximumWindowBounds();
-		//setBounds(rt);
-		// TODO: debug
-		setBounds(100, 100, 800, 600);
+		setBounds(rt);
 	}
 
 	public void add(final NavigationPanel panel) {
